@@ -120,6 +120,17 @@ html {
     margin: 30px;
   }
 }
+.hover_line:after{
+  content: "";
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  background-color: #f9c06a;
+  display: block;
+}
+.hover_line:hover:after{
+    width: 100%;
+}
 /* preloader */
 /* back to top */
 #button {
